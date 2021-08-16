@@ -1,6 +1,6 @@
 [package]
 name = "dyn-dictionary"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2018"
 repository = "https://github.com/PFAhard/dyn_dict"
 description = "Rust dict for store value of any type in one map"
@@ -13,3 +13,4 @@ documentation = "https://docs.rs/dyn-dictionary"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = "1.0.127"
